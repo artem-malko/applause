@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "cson-parser": "^1.2.0",
-    "js-yaml": "^3.13.1",
+    "js-yaml": "^3.3.0",
     "lodash": "^4.17.15"
   },
   "devDependencies": {
