@@ -13,7 +13,7 @@
   },
   "scripts": {
     "release": "scripts/release.sh",
-    "test": "grunt test"
+    "test": "./node_modules/.bin/mocha test"
   },
   "dependencies": {
     "cson-parser": "^1.2.0",
@@ -21,6 +21,7 @@
     "lodash": "^4.17.15"
   },
   "devDependencies": {
+    "mocha": "6.2.0",
     "grunt": "^0.4.0",
     "grunt-contrib-jshint": "^0.11.0",
     "grunt-contrib-watch": "^0.6.0",
